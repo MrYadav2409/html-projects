@@ -1,0 +1,18 @@
+.firstCol{
+    background-color: #77add1;
+}
+.secondCol{
+    background-color: #004463;
+}
+.thirdCol{
+    background-color: #2c014e;
+}
+.navbar1 {
+    color: white;
+
+}
+.navbar1:hover{
+    color: rgb(233, 232, 232);
+    background-color: #53778f;
+    display: block;
+}

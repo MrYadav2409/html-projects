@@ -1,0 +1,163 @@
+
+h1{
+    font-size: 12px;
+    color: red;
+}
+p{
+    font-size: 18px;
+    color: brown;
+}
+.navHolder{
+    width: 100%;
+    background-color: #6d648f;
+    display: flex;
+    margin-bottom: 5px;
+}
+.navHolder ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  
+}
+.navHolder ul li{
+    float: left;
+    border-right: 1px solid #bbb;
+}
+.navHolder ul li:last-child{
+    border-right: none;
+}
+
+.navHolder ul li a{
+   padding: 8px 12px;
+   display: block;
+   text-decoration: none;
+   color: white;
+}
+.navHolder ul li a:hover{
+     background-color: #d6a1f5;
+ }
+ .navHolder ul li a.active{
+     background-color: #612385;
+ }
+
+.firstCol{
+    background-color: aquamarine;
+    width: 350px;
+    height: 180px;
+}
+.firstCol h1{
+    font-size: 18px;
+    color:red;
+}   
+.firstCol p{
+    font-size: 12px;
+    color: black;
+}
+.firstCol p a{
+    color:rgb(105, 0, 167);
+    text-decoration: none;
+}
+.firstCol p a:hover{
+    color:rgb(0, 167, 139);
+    text-decoration: underline;
+}
+
+#secondDiv{
+    background-color:rebeccapurple;
+    width: 350px;
+    height: 180px;
+}
+.mid-container{
+    display: flex;
+    width: 700px;
+}
+.firstDiv{
+    background-color: rgb(2, 126, 109);
+    padding:10px;
+    border:2px solid red;
+    margin:0 0 0 5px;
+}
+.firstDiv:nth-child(3){
+    border:2px solid blue;
+    
+}
+.mid-container2{
+    width: 1000px;
+}
+.secondDiva{
+    width: 300px;
+}
+.secondDivb{
+    width: 300px;
+}
+
+table{
+    width: 70%;
+    border-collapse: collapse;
+    background-color: red;
+    margin-bottom: 10px;
+    
+}
+table tr {
+    border-bottom: 1px solid #ccc;
+    
+}
+table tr th{
+    background-color: rgb(5, 58, 128);
+    text-align: left;
+    font-size: 14px;
+    color: white;
+    padding: 5px 0 5px 5px;
+}
+table tr td{
+    font-size: 12px;
+    color: black;
+    padding: 5px 0 5px 5px;
+}
+table tr:nth-child(odd){
+    background-color: rgb(151, 151, 151);
+  
+}
+table tr:nth-child(even){
+    background-color: rgb(184, 184, 184);
+    
+}
+.tableHolder table{
+    width: 70%;
+    border-collapse: collapse;
+    background-color: red;
+    margin-bottom: 10px;
+    
+}
+.tableHolder table tr {
+    border-bottom: 1px solid #2901bd;
+    
+}
+.tableHolder table tr th{
+    background-color: rgb(64, 81, 104);
+    text-align: left;
+    font-size: 14px;
+    color: white;
+    padding: 5px 0 5px 5px;
+}
+.tableHolder table tr td{
+    font-size: 12px;
+    color: black;
+    padding: 5px 0 5px 5px;
+}
+.tableHolder table tr:nth-child(odd){
+    background-color: rgb(2, 106, 148);
+  
+}
+.tableHolder table tr:nth-child(even){
+    background-color: rgb(2, 130, 180);
+    
+}
+.contact-info{
+    background: url(../images/smiley.jfif) no-repeat;
+    width: 200px;
+    height: 200px;
+}
+
+
+
